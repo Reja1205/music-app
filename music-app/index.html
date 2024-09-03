@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Music Finder</title>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container-box">
+      <main class="content-area container">
+        <div class="search-bar col-md-6 mx-auto">
+          <h1 class="text-center primary-text">Find Music</h1>
+          <div class="search-box my-2 d-flex gap-3">
+            <input
+              type="text"
+              class="form-control"
+              id="inputedSearch"
+              placeholder="Enter your artist song name"
+            />
+            <button class="btn btn-success search-btn ml-2" id="search-btn">
+              Search
+            </button>
+          </div>
+        </div>
+        <div id="invalidSong"></div>
+
+        <div class="" id="song-title"></div>
+
+        <div class="single-lyrics text-center" id="single-lyrics">
+          <button class="btn go-back">&lsaquo;</button>
+          <h2 class="text-success mb-4" id="getTitle"></h2>
+          <pre class="lyric text-white" id="getLyrics"></pre>
+        </div>
+      </main>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
